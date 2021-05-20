@@ -76,7 +76,7 @@ window.onload = function () {
      comments = function () {
       showLives.innerHTML = "Таньд " + lives + " боломж үлдлээ";
       if (lives < 1) {
-        showLives.innerHTML = "Та хожигдсан. Дахин эхэлнэ үү?";
+        showLives.innerHTML = "Та хожигдсон. Дахин эхэлнэ үү?";
       }
       for (var i = 0; i < geusses.length; i++) {
         if (counter + space === geusses.length) {
